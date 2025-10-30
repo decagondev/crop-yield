@@ -77,10 +77,10 @@ The overall flow integrates front-end user interactions with backend processing,
   + Utilizes Numpy and Pandas for data analysis and processing.
   + Utilizes Scikit-learn for machine learning model development and training.
 * **Database**:
-  + MySQL database used to store user data, historical weather data, and crop yield predictions.
-  + Schema designed to optimize data retrieval and storage, with tables for users, weather logs, and predictions.
+  + MongoDB database used to store user data, historical weather data, and crop yield predictions.
+  + Collections designed to optimize data retrieval and storage, with flexible schemas for unstructured data like weather logs.
 * **Libraries and Environment**:
-  + Core libraries: Numpy, Pandas, Scikit-learn.
+  + Core libraries: Numpy, Pandas, Scikit-learn, PyMongo.
   + Deployment: Containerized with Docker for easy scaling.
 
 This technical summary ensures the application is robust, efficient, and maintainable, with a focus on data-driven decision-making.
